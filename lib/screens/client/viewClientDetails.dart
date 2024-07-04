@@ -37,7 +37,7 @@ class _ClientDetailsScreenState extends State<ClientDetailsScreen> {
         doctor.location.longitude,
         'AIzaSyDOaKsCi6IFVYNIm_1QvbkJ01JDW8cZ4OU',
       );
-      if (distance <= 1000) { // 5 km radius
+      if (distance <= 2000) { // 5 km radius
         nearbyDoctors.add(doctor);
       }
     }
